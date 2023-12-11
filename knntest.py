@@ -20,10 +20,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # print(y_train.shape)  # number of samples (120) in the training set
 # print(y_train)  # print the labels of the training set
 
-# # plot the data
-# plt.figure()
-# plt.scatter(X[:, 0], X[:, 1], c=y, cmap=cmap, edgecolor='k', s=20)
-# plt.show()
+# plot the data
+plt.figure()
+plt.scatter(X[:, 0], X[:, 1], c=y, cmap=cmap, edgecolor='k', s=20)
+plt.show()
 
 
 # # how to use most_common function from Counter
